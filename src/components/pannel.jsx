@@ -5,8 +5,8 @@ import {Component} from 'react';
 
 import Cell from './cell';
 
-// 80*60
 
+// 80*60
 const LINE = 80;
 const HEIGHT = 60;
 
@@ -36,8 +36,8 @@ for(var i = 0; i < LINE*HEIGHT; i++){
 			});
 	}
 	// 10 cells row
-	else if(i==2500 || i==2501 || i==2502 || i==2503 || 
-		i==2504 || i==2505 || i==2506 || i==2507 || 
+	else if(i==2500 || i==2501 || i==2502 || i==2503 ||
+		i==2504 || i==2505 || i==2506 || i==2507 ||
 		i==2508 || i==2509 || i==2510 ){
 			mock.push({
 				index: i,
@@ -143,7 +143,7 @@ class Pannel extends Component {
   		} else if (_cellsData[key].statue%2 === 0){ // death2death
   			_cellsData[key].statue = 0;
   		}
-  	} 
+  	}
 
   	if(_aliveNeiboursNum === 3){
   			// relive
@@ -164,7 +164,7 @@ class Pannel extends Component {
 				<Cell
 					key = {item.index}
 					index = {item.index + 1}
-					type = {item.statue} // 0die 1old 2dead 3young
+					type = {item.statue} // 0 - die 1 - old 2 - dead 3 - young
 				/>
 			);
   	});

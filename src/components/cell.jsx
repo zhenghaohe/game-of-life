@@ -3,7 +3,6 @@
 import React from 'react';
 import {Component} from 'react';
 
-// console.log($('body'));
 
 class Cell extends Component {
 	constructor(props) {

@@ -4,7 +4,6 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 import Pannel from './pannel';
-// console.log(Pannel);
 
 
 const App = () => (
@@ -23,7 +22,6 @@ const App = () => (
 
 
 
-// 最终渲染
 ReactDom.render((
 	<App />
 ), document.getElementById('app'));

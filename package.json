@@ -12,7 +12,7 @@
         "type": "git",
         "url": ".."
     },
-    "author": "elevenBeans",
+    "author": "Zhenghao He",
     "license": "MIT",
     "devDependencies": {
         "autoprefixer": "^6.4.0",
